@@ -1,0 +1,219 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 1400px) {
+    .profileImg {
+        width: 45vh;
+        height: auto;
+        margin: 2rem auto 2rem;
+      }
+      .about-me-description{
+        font-size: 1.25rem;
+        text-align: center;
+      }
+      .about-exp-edu {
+        flex-direction:row;
+        align-items: center;
+    }
+
+    #experience, #education {
+        max-width: 100%;
+        margin: 1rem;
+    }
+     /* skills */
+    .skills-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .skills-title {
+        font-size: 2rem;
+    }
+    
+  }
+
+@media screen and (max-width: 1200px) {
+    
+    /* Hide desktop nav */
+    #desktop-nav {
+        display: none;
+    }
+
+    /* Show hamburger nav */
+    #hamburger-nav {
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        width: 100%;
+        top: 0;
+    }
+    .logo {
+        color: rgb(255, 255, 255);
+    }
+    .hamburger-menu {
+        align-items: end;
+        padding: 0 2rem;
+    }
+    #profile{
+        display: block;
+        height:100%;
+        padding: 2rem 1;
+    }
+    .profileImg {
+        width: 40%;
+        height: auto;
+        margin: 2rem auto 2rem;
+      }
+      .about-me-p{
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+      .about-me-title{
+        text-align: center;
+        font-family: "Bebas Neue";
+        font-size: 2rem;
+        margin: 1rem auto ;
+      }
+      .about-me-description{
+        font-size: 1.25rem;
+        text-align: center;
+      }
+      .about-exp-edu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #experience, #education {
+        max-width: 100%;
+        margin: 1rem;
+    }
+    /* skills */
+    .skills-list {
+      display: flex;
+    }
+
+    .skill-category {
+      margin: auto;
+      width: 80%;
+      margin-bottom: 2rem;
+    }
+
+    .skills-title {
+        font-size: 2rem;
+    }
+    .projects-section{
+      display: block;
+    }
+    .project-container{
+      display: block;
+      width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Adjust logo size for smaller screens */
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    /* Stack nav links vertically */
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .profileImg {
+        width: 60%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .hello{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 600;
+      }
+      .profile-name{
+        font-family: "Pacifico";
+        font-size: 1.5rem;
+      }
+      .description-1{
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+      }
+      .about-me-p{
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      .about-me-title{
+        text-align: center;
+        font-family: "Bebas Neue";
+        font-size: 2rem;
+        margin: 1rem auto ;
+      }
+      .about-me-description{
+        font-size: 1rem;
+        text-align: justify;
+      }
+      #experience, #education {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    #experience h1, #education h1 {
+        font-size: 1.5rem;
+    }
+
+    .experience-item p, .education-item p {
+        font-size: 0.9rem;
+    }
+
+    /* skills */
+    .skills-title {
+      font-size: 1.8rem;
+    }
+
+    .skill-category h2 {
+        font-size: 1.4rem;
+    }
+
+    .skill-category ul li {
+        font-size: 1rem;
+    }
+
+    .skill-icon {
+        font-size: 1.75rem;
+    }
+
+    .projects-section{
+      display: block;
+    }
+    .project-container{
+      display: block;
+      width: 100%;
+    }
+
+    /* contact */
+    .contact-informations-container {
+      display: block;
+      /* margin: auto; */
+      width: 90vw;
+      border-radius: 3rem;
+      padding: 1rem 2rem;
+      box-shadow: 0 3px 12px #2b2828;
+    }
+    .contact-informations h2{
+      font-size: larger;
+    }
+
+    /* footer */
+    .footer-name,
+    .year,
+    .footer-description{
+        font-size: 0.8rem;
+    }
+
+}
